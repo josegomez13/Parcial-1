@@ -1,4 +1,3 @@
-
 #define DATA 2 //Definicion de pin de datos
 #define SHIFT 3 //Definicion de pin de cambio de registro
 #define STORE 4 //Definicion de pin de almacenamiento
@@ -6,7 +5,9 @@ void verificacion();
 
 void setup()
 {
-  
+  pinMode(DATA, OUTPUT);
+  pinMode(SHIFT, OUTPUT);
+  pinMode(STORE, OUTPUT);
 }
 
 void verificacion ()
